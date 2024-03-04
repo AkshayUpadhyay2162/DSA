@@ -2,6 +2,7 @@
 #include <deque>
 using namespace std;
 
+// Sum of minimum and maximum elements of all subarrays of size k
 int MaxMinSum(int *arr, int k, int n){
     deque<int> maxi(k);
     deque<int> mini(k);
